@@ -1,7 +1,11 @@
+
 //express.js related
 var PORT = 8088;
 var express = require('express');
 var app = express();
+
+// serving static files
+app.use('/public', express.static(__dirname + '/public'));
 
 // vars for my app
 var ready_last = new Date();
