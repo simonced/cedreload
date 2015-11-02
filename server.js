@@ -46,6 +46,7 @@ app.get('/ready', function(req, res) {
 ////////////////// petit message when starting ////////////////
 app.listen(PORT);
 console.log('Server running on port '+PORT);
+console.log('Add <script src="localhost:'+PORT+'/public/cedreload.js"></script> in your page.');
 
 
 ////////////////// Ending the server ////////////////
