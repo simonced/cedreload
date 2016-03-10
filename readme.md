@@ -1,1 +1,4 @@
-Please refere to the `Wiki/Home` page for usage instructions.
+Documentation to come soon.
+
+In the meantime, there is one available on bitbucket:
+https://bitbucket.org/simonced/cedreload/wiki/Home
